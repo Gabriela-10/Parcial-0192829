@@ -314,7 +314,7 @@ nav a {
 .contenido {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 32px;
+  gap: 1px;
   align-items: start;
 }
 
@@ -352,7 +352,7 @@ nav a {
     text-align: center;
     width: 990px;
     margin-top: 35px;      
-    margin-left: 20px;
+    margin-left: 14px;
 }
 
 .autora {
@@ -389,4 +389,113 @@ nav a {
     padding: 8px 22px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.duena_derecha {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 390px;
+    margin-top: 35px;      
+    margin-left: 1px;
+}
+
+.duena_derecha button {
+    background: #4CE0D7;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contenido2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.chinaLlorando_izquierda {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 450px;
+    margin-top: 70px;      
+    margin-left: 10px;
+}
+
+.chinaLlorando_izquierda button {
+    background: #fcffff15;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.verano_izquierda {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 450px;
+    margin-top: 70px;      
+    margin-left: 10px;
+}
+
+.verano_izquierda button {
+    background: #fcffff15;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boletin_derecha {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 390px;
+    margin-top: 35px;      
+    margin-left: 1px;
+}
+
+.boletin_derecha button {
+    background: #4CE0D7;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.categorias_izquierda {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 390px;
+    margin-top: 35px;      
+    margin-left: 1px;
+}
+
+.categorias_izquierda ul {
+    text-decoration: none;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.temas {
+  border-bottom: 1px solid #d9d9d9;
 }
