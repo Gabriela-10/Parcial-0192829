@@ -343,7 +343,50 @@ nav a {
     padding: 8px 18px;
     border-radius: 999px;
 }
+
+.moda_izquierda {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 990px;
+    margin-top: 35px;      
+    margin-left: 20px;
+}
+
 .autora {
     display: flex;
     gap: 100px;
+    height: 50px;
+}
+
+.autora p {
+    color: #BCBCBC;
+    gap: 100px;
+}
+
+.autora_rojito {
+    color: #F25E5E;
+    font-weight: 600;    
+}
+
+.moda_texto h2 {
+    font-weight: 800; 
+    text-align: left;
+}
+
+.moda_texto p {
+    font-weight: 400;
+    text-align: left;
+    color: #262626;
+}
+
+.moda_texto button {
+    background: #fcffff15;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
 }
