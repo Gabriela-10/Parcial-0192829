@@ -1,1 +1,349 @@
+body {
+    margin: 0;
+    background: #f9f9f9;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+}
 
+.header {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 25px;
+}
+
+.header img {
+    height: 25px;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header button {
+    background: #4CE0D7;
+    color: #262626;
+    padding: 8px 22px;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;   
+    cursor: pointer;    
+}
+
+.buscar {
+    display: flex;
+    background: #4CE0D7;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero_img {
+    width: 95%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.hero_texto {
+    position: absolute;
+    left: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.hero_texto h4 {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.hero_texto h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.hero_texto h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 2px;
+
+}
+
+.degradado {
+    background: linear-gradient(90deg, #4fdfd6, #8e9ef0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+.temas {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ropaInterior {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.ropaInterior img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.ropaInterior p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.ropaInterior button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primavera {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.primavera img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.primavera p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.primavera button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.yoga {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.yoga img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.yoga p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.yoga button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.brillo {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.brillo img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.brillo p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.brillo button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.conjuntos {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.conjuntos img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.conjuntos p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.conjuntos button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.skinCare {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 28px 12px 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.skinCare img {
+    display: block;
+    height: 64px;
+    margin: 0 auto 28px;
+    opacity: 0.35;
+}
+
+.skinCare p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 28px;
+    color: #262626;
+}
+
+.skinCare button {
+    background: #4fdfd6;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.moda_izquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.targeta {
+  position: relative;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 18px;
+    left: 24px;
+    background: rgba(34, 34, 34, 0.9);
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 8px 18px;
+    border-radius: 999px;
+}
+.autora {
+    display: flex;
+    gap: 100px;
+}

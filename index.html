@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina base</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="header">
@@ -17,81 +18,90 @@
             </ul>
         </nav>
         <button type="button">Contactanos</button>
-        <button type="button"><img src="assets/Buscar.png" alt="busquedas"></button>
+        <button class="buscar" type="button"><img src="assets/Buscar.png" alt="busquedas"></button>
     </header>
+
     <main>
         <!--primera parte-->
-        <img src="assets/primeraCompu.png" alt="primera imagen">
-        <h5>LUX VENTUS MAGAZINE</h5>
-        <h1>Nosotras somos la moda ventus</h1>
-        <h5>Nos gusta opinar sobre todo, pero nunca nos olvidamos de la dosis diaria de moda.</h5>
-    
+        <section class="hero">
+            <img class="hero_img" src="assets/primeraCompu.png" alt="primera imagen">
+            <div class="hero_texto">
+                <h4>LUX VENTUS MAGAZINE</h4>
+                <h1>Nosotras somos la <span class="degradado"> moda ventus</span></h1>
+                <h3>Nos gusta opinar sobre todo, pero nunca nos olvidamos de la dosis diaria de moda.</h3>
+            </div>
+        </section >
         <!--segunda parte-->
 
         <h2>TEMAS</h2>
 
         <section>
-            <article>
+        <ul class="temas">
+            <li class="ropaInterior">
                 <img src="assets/ropaInterior.png" alt="vestidos">
                 <p>Lencería</p>
                 <button type="button">VER MAS</button>
-            </article>
+            </li>
 
-            <article> 
+            <li class="primavera"> 
                 <img src="assets/dress.png" alt="blusa">
                 <p>Primavera</p>
                 <button type="button">VER MAS</button>
-            </article>
+            </li>
 
-            <article>
+            <li class="yoga">
                 <img src="assets/chakra.png" alt="yoga">
                 <p>Yoga</p>
                 <button type="button">VER MAS</button>
-            </article>
-            
-            <article>
+            </li>
+
+            <li class="brillo">
                 <img src="assets/lipstick.png" alt="labial">
                 <p>Brillo</p>
                 <button type="button">VER MAS</button>
-            </article>
+            </li>
            
-            <article>
+            <li class="conjuntos">
                 <img src="assets/dress-wedding-dress.png" alt="vestido">
                 <p>Conjuntos</p>
                 <button type="button">VER MAS</button>
-            </article>
+            </li>
 
-            <article>
+            <li class="skinCare">
                 <img src="assets/mask-theater.png" alt="mascara">
                 <p>Skin Care</p>
                 <button type="button">VER MAS</button>
-            </article>
+            </li>
+        </ul>
         </section>
 
         <!--tercera parte-->
-
-        <section>
+    <div class="contenido">
+        <!--moda-->
+        <section id="moda" class="moda_izquierda">
             <img src="assets/Mask group (5).png" alt="fashion">
-            <p>Moda</p>
+            <p class="etiqueta">Moda</p>
 
-            <article>
+            <article class="autora">
                 <img src="assets/Mask group (1).png" alt="icono">
                 <p>Mallory Reyn</p>
                 <p>April 14th, 2023</p>
                 <p>COMING IN HOT!</p>
             </article>
+            <section class="moda_texto">
+                <h2>Las últimas tendencias de la Semana de la Moda Lunar.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. 
+                Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae 
+                mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+
+                <button type="button"><img src="assets/flechita.png" alt="flechita"> LEER MAS</button>
+            </section>
+
         </section>
 
-        <section>
-            <h2>Las últimas tendencias de la Semana de la Moda Lunar.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. 
-            Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae 
-            mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
-
-            <button type="button"><img src="assets/flechita.png" alt="flechita"> LEER MAS</button>
-        </section>
-
-        <section>
+        
+        <!--la dueña-->
+        <section class="dueña_derecha">
             <img src="assets/Mask group (1).png" alt="icono">
             <h6>TU ANFITRIONA</h6>
             <h3>Mallory Reyn</h3>
@@ -116,8 +126,68 @@
 
         </section>
 
+        
+    <div class="contenido">
+        
+        <h2>Tendencias</h2>
 
+        <!--china llorando-->
+        <section id="estiloVida" class="chinaLlorando_izquierda">
+            <h4>ESTILO DE VIDA</h4>
+            <img src="assets/Mask group (3).png" alt="estres">
+            <h2>10 cosas que te ayudarán con el estrés social.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae 
+            mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+            <img src="assets/flechita.png" alt="ver mas">
+            <button type="button">VER MAS</button>
+        </section>
+
+        <!--verano-->
+        <section class="verano_izquierda">
+            <h4>VERANO</h4>
+            <img src="assets/Mask group (2).png" alt="verano">
+            <h2>La selección del verano de 2023 ya está aquí.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae 
+            mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p> 
+            <img src="assets/flechita.png" alt="ver mas">
+            <button type="button">VER MAS</button>
+        </section>
+    </div>
+        <!--pa el email-->
+
+        <section class="boletin_derecha">
+            <h2>Boletin</h2>
+            <p>¡Unete a los 36.000 Lux Ventus!</p>
+            <input type="email" id="email" name="email" placeholder="Correo electronico" required>
+            <button type="button">Suscribirse</button>
+            <p>¡Te divertiras mucho!</p>
+        </section>
+
+        <!--categorias-->
+
+        <section class="categorias">
+            <h2>CATEGORIAS</h2>
+            <ul>
+                <li><h3>Moda</h3></li>
+                <li><h3>Estilo de vida</h3></li>
+                <li><h3>Espiritualidad</h3></li>
+                <li><h3>Salud mental</h3></li>
+            </ul>
+        </section>
     </main>
+</div>
+    <footer>
+        <img src="assets/logotipo.png" alt="logito">
+        <h2>Contactanos</h2>
+        <ul>
+            <img src="assets/facebook.png" alt="redes">
+            <img src="assets/instagram.png" alt="redes">
+            <img src="assets/twitter.png" alt="redes">
+            <img src="assets/youtube.png" alt="redes">
+        </ul>
+
+        <p>© 2023 - Lux Ventus by Zine.E.Falouti</p>
+    </footer>
 
 </body>
 </html>
