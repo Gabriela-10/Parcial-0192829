@@ -499,3 +499,10 @@ nav a {
 .temas {
   border-bottom: 1px solid #BCBCBC;
 }
+
+.footer {
+    display: flex;
+    gap: 210px;
+    align-items: center;
+    padding: 25px;
+}
